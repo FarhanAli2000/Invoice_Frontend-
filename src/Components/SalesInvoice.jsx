@@ -102,7 +102,7 @@ const SalesInvoice = () => {
     };
 
     try {
-      const res = await fetch('http://localhost:3000/api/sales-invoice', {
+      const res = await fetch('https://invoice-backend-production-24bd.up.railway.app/api/sales-invoice', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
