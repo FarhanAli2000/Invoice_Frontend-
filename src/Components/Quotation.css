@@ -1,0 +1,118 @@
+/* Quotation.css */
+
+.quotation-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.quotation-container h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
+
+.quotation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.quotation-form input,
+.quotation-form textarea {
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.quotation-form input:focus,
+.quotation-form textarea:focus {
+  border-color: #4f46e5;
+  outline: none;
+  background-color: #f9fafb;
+}
+
+.quotation-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.quotation-form table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.quotation-form th,
+.quotation-form td {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.quotation-form th {
+  background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+}
+
+.quotation-form td input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.add-item-btn,
+.generate-btn {
+  align-self: flex-start;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.add-item-btn {
+  background-color: #10b981;
+}
+
+.add-item-btn:hover {
+  background-color: #059669;
+}
+
+.generate-btn {
+  background-color: #4f46e5;
+}
+
+.generate-btn:hover {
+  background-color: #4338ca;
+}
+
+.view-btn,
+.download-btn {
+  padding: 10px 16px;
+  background-color: #64748b;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  margin-right: 12px;
+  display: inline-block;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.view-btn:hover,
+.download-btn:hover {
+  background-color: #475569;
+}
