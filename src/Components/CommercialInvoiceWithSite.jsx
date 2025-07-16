@@ -26,10 +26,10 @@ export const CommercialInvoiceWithSite = () => {
   };
 
   const [invoice, setInvoice] = useState({
-    supplierName: 'Millennia Tech',
-    supplierAddress: 'Office # 02, 3rd Floor, Al Haseeb Arcade UBL Ameen Building, Khana, Islamabad, Pakistan',
-    supplierNTN: '8528727-3',
-    supplierSTRN: '8528727-3',
+    supplierName: 'SOLACE TELECOM',
+    supplierAddress: 'Office number 108 Street no: 94 Sector I-8/4, Islamabad',
+    supplierNTN: '271-135-82',
+    supplierSTRN: '070-139-0005691',
     buyerName: '',
     buyerAddress: '',
     buyerNTN: '',
