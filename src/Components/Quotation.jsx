@@ -17,7 +17,7 @@ const Quotation = () => {
 
   // ✅ Fetch terms from backend
   useEffect(() => {
-    axios.get(https://invoice-backend-production-24bd.up.railway.app/api/terms')
+    axios.get('https://invoice-backend-production-24bd.up.railway.app/api/terms')
       .then(res => {
         setQuotation(prev => ({ ...prev, terms: res.data.terms }));
       })
