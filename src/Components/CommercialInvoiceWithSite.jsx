@@ -115,7 +115,7 @@ export const CommercialInvoiceWithSite = () => {
     const invoiceWithWords = { ...invoice, subtotal, gst, total };
 
     try {
-      const response = await fetch('http://localhost:3000/api/invoice', {
+      const response = await fetch('https://invoice-backend-production-24bd.up.railway.app/api/invoice', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(invoiceWithWords)
