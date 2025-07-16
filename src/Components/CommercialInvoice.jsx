@@ -4,11 +4,17 @@ import { toWords } from 'number-to-words';
 import './CommercialInvoice.css';
 
 export const CommercialInvoice = () => {
-  const buyersData = {
-    "NTC Head Quarter Islamabad": {
-      address: "Plot No. 181-186, Street No. 2, Industrial Area, Sector I-9/2, Islamabad, Pakistan",
-      NTN: "1218153",
-      STRN: "07-01-9802-013-64"
+  const buyersData = 
+  {
+    // "NTC Head Quarter Islamabad": {
+    //   address: "Plot No. 181-186, Street No. 2, Industrial Area, Sector I-9/2, Islamabad, Pakistan",
+    //   NTN: "1218153",
+    //   STRN: "07-01-9802-013-64"
+    // },
+    "SOLACE TELECOM":{
+       address:"Office number 108 Street no: 94 Sector I-8/4, Islamabad",
+       NTN:"271-135-82",
+       STRN:"070-139-0005691",
     },
     "NTC Head Quarter Quetta": {
       address: "Zarghoon Road, Near Civil Secretariat, Quetta, Balochistan, Pakistan",
@@ -235,7 +241,7 @@ doc.text(`${item.unitPrice.toFixed(2)}`, margin + 130, y + 5);  // X = 140
 
   return (
     <div className="ci-container">
-      <h1 className="ci-title">Commercial Invoice</h1>
+      <h1 className="ci-title">Commercial Invoice </h1>
       {error && <div className="ci-error">{error}</div>}
       <form onSubmit={handleSubmit} className="ci-form">
         <div className="ci-section">

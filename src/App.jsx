@@ -1,5 +1,5 @@
 import React from 'react';
-import './app.css';
+import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { CommercialInvoice } from './Components/CommercialInvoice';
 import SalesInvoice from './Components/SalesInvoice';
@@ -7,7 +7,7 @@ import SalesWithSite from './Components/SalesWithSite';
 import { Home } from './Components/home';
 import { CommercialInvoiceWithSite } from './Components/CommercialInvoiceWithSite';
 import Quotation from './Components/Quotation'; // ✅ NEW import
-
+//app.css 
 const App = () => {
   return (
     <Router>
@@ -51,3 +51,5 @@ const App = () => {
 };
 
 export default App;
+//i am the extra lne 
+console.log(" i am starting the application")
